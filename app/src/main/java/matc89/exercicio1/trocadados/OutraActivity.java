@@ -33,6 +33,10 @@ public class OutraActivity extends AppCompatActivity {
     }
 
     public void cancelar(View view){
+
+        Intent intent = new Intent();
+        setResult(RESULT_CANCELED,intent);
         finish();
+
     }
 }

@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             if (nome == null) {
                 txtview.setText("Oi!");
             } else {
-                txtview.setText("Oi!" + nome);
+                txtview.setText("Oi! " + nome);
 
             }
        // mudaEstado = estadotxt.getText().toString();
@@ -85,8 +85,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        nome =data.getStringExtra("novonome");
-
+        if(resultCode ==RESULT_OK) {
+            nome = data.getStringExtra("novonome");
+        }
 
     }
 

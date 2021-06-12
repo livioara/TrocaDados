@@ -8,9 +8,10 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="158dp"
-        android:layout_height="55dp"
+        android:layout_width="367dp"
+        android:layout_height="79dp"
         android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
         android:text="Oi!"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,9 +20,9 @@
 
     <Button
         android:id="@+id/btnTrocar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_width="211dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="28dp"
         android:onClick="trocar"
         android:text="Trocar Usuário"
         app:layout_constraintEnd_toEndOf="parent"
