@@ -13,6 +13,7 @@
         android:layout_marginTop="100dp"
         android:gravity="center_horizontal"
         android:text="Oi!"
+        android:textColor="#0E0E0E"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
